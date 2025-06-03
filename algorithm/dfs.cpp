@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <algorithm>
 using namespace std;
 
 int n, k;
@@ -30,8 +32,6 @@ void dfs(int idx)
 
 int main()
 {
-  ios::sync_with_stdio(false);
-  cin.tie(nullptr);
   // 读取输入格式：
   // 第一行：n k
   // 第二行：jobs 数组（n 个整数）
